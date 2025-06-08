@@ -1,12 +1,31 @@
-# React + Vite
+# React Hooks Examples
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of React hooks examples with practical demonstrations.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencies:
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+2. Start the development server:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Use
+
+Each hook concept is organized in its own folder with example components. To see any example in action:
+
+1. Import the component in [`src/App.jsx`](src/App.jsx)
+2. Add it to the JSX return statement
+3. View the result in your browser
+
+## Available Examples
+
+- **useMemo**: [`useMemo/ShoppingCart.jsx`](useMemo/ShoppingCart.jsx) - Demonstrates memoization for expensive calculations
+
+## Coming Soon
+
+More hook examples will be added covering useState, useEffect, useCallback, useContext, and other React hooks.
